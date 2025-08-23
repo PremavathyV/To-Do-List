@@ -1,0 +1,142 @@
+/* Background */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #a1c4fd, #c2e9fb);
+  background-size: 300% 300%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Input area */
+.input-area {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#taskInput {
+  width: 60%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#addBtn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff6f61;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#addBtn:hover {
+  background: #ff3b2e;
+}
+
+/* Filters */
+.filters button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #444;
+  color: white;
+  transition: 0.3s;
+}
+.filters button:hover {
+  background: #222;
+}
+
+/* Sticky Notes */
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.note {
+  width: 180px;
+  height: 180px;
+  padding: 15px;
+  background: yellow;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  transform: rotate(-2deg);
+  position: relative;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+.note:hover {
+  transform: scale(1.05) rotate(0deg);
+}
+.note.completed {
+  text-decoration: line-through;
+  background: #c6f6c6;
+  opacity: 0.8;
+}
+.note .actions {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.note button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+/* Counter */
+.counter {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.note {
+  background: #fff8b0; /* pastel yellow */
+  padding: 15px;
+  width: 200px;
+  min-height: 120px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  font-family: 'Patrick Hand', cursive;
+  position: relative;
+  transform: rotate(-2deg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note:hover {
+  transform: scale(1.05) rotate(0deg);
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.4);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ff4d4d;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Notes To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Focus on progress, not perfection📈</h1>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="✍️ Write your task here...">
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <div class="filters">
+      <button data-filter="all">All</button>
+      <button data-filter="completed">Completed</button>
+      <button data-filter="pending">Pending</button>
+    </div>
+
+    <div id="taskContainer" class="task-container"></div>
+
+    <div class="counter" id="counter">Total: 0 | Completed: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
