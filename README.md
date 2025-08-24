@@ -15,7 +15,7 @@ Stay organized, track your progress, and get motivated with daily quotes! ✨
 - ✅ Responsive and mobile-friendly UI 📱
 - ✅ Task Counter → *Total | Completed*
 
----
+--
 
 ## 🎨 Design Highlights
 - Gradient background with soft shadows 🌈
