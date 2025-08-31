@@ -49,7 +49,7 @@ If you like this project, feel free to connect with me!
 
 - **LinkedIn**: [Premavathy V](https://www.linkedin.com/in/premavathy-vijayan-921a39252)  
 - **GitHub**: [PremavathyV](https://github.com/PremavathyV)  
-- **Email**: vprema376@gmail.com  
+- **Email**: vprema376@gmail.com(mailo:vprema376@gmail.com)  
 
 ---
 
