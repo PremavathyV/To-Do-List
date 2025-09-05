@@ -7,7 +7,7 @@ Stay organized, track your progress, and get motivated with daily quotes! ✨
 
 ## 🚀 Features
 - ✅ Add, Edit, and Delete tasks
-- ✅ Mark tasks as **Completed / Pending** with strike-through & animations
+- ✅ Mark tasks as **Completed / Pending** with strike-through & animations.
 - ✅ Sticky note style colorful task cards 🎨
 - ✅ Motivational quote at the top 💡
 - ✅ Filters: **All | Completed | Pending**
